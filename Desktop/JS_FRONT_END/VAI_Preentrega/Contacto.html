@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAI Urban Style - Contacto</title>
+    <link rel="icon" href="./img/Formulario.ico">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./img/LOGO.png" width="100" height="60">
+            <h2>Calzado Urbano para Dama</h2>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./Reseña.html">Reseña</a></li>
+                <li><a href="./Productos.html">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="./Comprar.html">Comprar</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Nos encanta escuchar tu opinión y recibir tus consultas:</h2>
+            <form action="https://formspree.io/f/mzzpnoge" method="POST" target="_blank">
+                <label for="cognome">Apellido: </label>
+                <input size="25" type="text" name="cognome" id="cognome" required>
+                <label for="nome">Nombre de pila: </label>
+                <input size="35" type="text" name="nome" id="nome">
+                <p></p>
+                <label for="data">Fecha de nacimiento: </label>
+                <input size="10" type="date" name="data" id="data">
+                <p></p>
+                <label for="email">Dirección de e-mail: </label>
+                <input size="40" type="text" name="email" id="email">
+                <p></p>
+                <label for="phone">Número de Teléfono: </label>
+                <input size="15" type="text" name="phone" id="phone">
+                <p></p>
+                <h3>Zona</h3>
+                <label for="RAD">AMBA: </label>
+                <input type="radio" name="Zona" id="RAD">
+                <label for="RAD">PBA Interior: </label>
+                <input type="radio" name="Zona" id="RAD">
+                <label for="RAD">CUYO: </label>
+                <input type="radio" name="Zona" id="RAD">
+                <label for="RAD">CENTRO-NORTE: </label>
+                <input type="radio" name="Zona" id="RAD">
+                <label for="RAD">MESOPOTAMIA: </label>
+                <input type="radio" name="Zona" id="RAD">
+                <label for="RAD">PATAGONIA: </label>
+                <input type="radio" name="Zona" id="RAD">
+                <p></p>
+                <h3>Motivo/s de Contacto</h3>
+                <input type="checkbox" name="tilde1" value="1">  Quiero suscribirme a la Newsletter
+                <p></p>
+                <input type="checkbox" name="tilde2" value="1">  Quiero hacer una Consulta
+                <p></p>
+                <input type="checkbox" name="tilde3" value="1">  Quiero compartir mi experiencia con VAI
+                <p></p>
+                <textarea name="descripcion" rows="10" cols="90" id="freetext" placeholder="Buenos días, los contacto por este medio..."></textarea>
+                <p></p>
+                <input type="reset" value="Borrar Datos">
+                <input type="submit" value="Enviar Datos">
+            </form>
+        </body>
+        </main>
+        <footer>
+            <p>Talento Tech 2024 - Pre Entrega</p>
+        </footer>
+    </div>    
+</body>
+</html>

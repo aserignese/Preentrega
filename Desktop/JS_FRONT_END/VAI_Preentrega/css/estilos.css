@@ -1,0 +1,106 @@
+<style>
+    body
+    {
+        margin: 0;
+        padding: 0 ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+    .productos 
+    {
+        background-color: rgb(202, 168, 168);
+        padding: 20px;
+        border: 3px solid black;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .etiqueta
+    {
+        background-color: rgb(104, 4, 87);
+        font-size: 150%;
+        border: 3px solid black;
+        text-align: center;
+        color: white;
+        margin: 10px;
+    }
+
+    header
+        {
+           grid-area: header; 
+           background-color: rgb(207, 15, 175);
+           font-size: 150%;
+           color:white;
+           padding: 10px;
+           text-align: center;
+        }
+    
+    nav ul
+    {
+        display: flex;
+        list-style: none;
+        background-color: black;
+        margin: 0;
+        padding: 0 ;
+        justify-content: center;
+     }
+    
+    nav ul li
+    {
+        margin: 0 15px;
+    }
+    nav ul li a
+    {
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        display: block;
+    }
+    nav ul li a:hover
+    {
+        background-color: #575757;
+    }
+
+    main {
+            grid-area: main;
+            background-color: white;
+            padding: 20px;
+            div {
+            text-align: center;
+            }
+            h2 {
+                text-align: center;
+            }
+        }
+
+    .tarjeta{
+        display: flex;
+    }
+
+    .card{
+        flex: 50%;
+        margin: 10px;
+        border: 5px solid black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card .content{
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    .card .footer{
+        background-color: rgb(207, 15, 175);
+        padding: 10px;
+    }
+
+    footer{
+        grid-area: footer;
+        background-color: rgb(207, 15, 175);
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }   
+</style>
